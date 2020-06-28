@@ -12,4 +12,9 @@
 
 ActiveRecord::Schema.define(version: 1) do
 
+  create_table "artists", force: :cascade do |t|
+    t.string "name"
+    t.string "class"
+  end
+
 end
